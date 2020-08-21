@@ -4,3 +4,6 @@
 #Step 2: Install Vagrant
 #Step 3: Git clone this repo and change CWD to the downloaded repos directory
 #step 4: Vagrant up   
+#step 5: vagrant ssh controller
+#step 6: ssh-keygen -t rsa -b 2048
+#step 7: ssh-copy-id node1      (repeat for node2 and node3 default user:vagrant default pw:vagrant)
