@@ -1,5 +1,9 @@
 4-Node Local Vagrant test environment for Ansible using Virtualbox 
 
+#If using Windows 10 with Hyper-v enabled , change image to Ubuntu 18.04 because ubuntu 20.04 has issues
+using Virtualbox alongside Hyper-v using Ubuntu 20.04 https://forums.virtualbox.org/viewtopic.php?f=6&t=90853&start=270
+
+
 #Step 1: Install Virtualbox
 #Step 2: Install Vagrant
 #Step 3: Git clone this repo and change CWD to the downloaded repos directory
