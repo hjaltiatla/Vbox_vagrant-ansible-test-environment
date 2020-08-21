@@ -1,1 +1,6 @@
 4-Node Local Vagrant test environment for Ansible using Virtualbox 
+
+#Step 1: Install Virtualbox
+#Step 2: Install Vagrant
+#Step 3: Git clone this repo and change CWD to the downloaded repos directory
+#step 4: Vagrant up   
