@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 	config.vm.define "controller" do |controller|
-		controller.vm.box = "bento/ubuntu-18.04"
+		controller.vm.box = "generic/ubuntu2004"
 		controller.vm.hostname = "controller"
 		controller.vm.network :private_network, ip: "10.10.10.10"
 		controller.vm.provider "virtualbox" do |vb|
@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
 
 	(1..3).each do |i|
 	   config.vm.define "node#{i}" do |node|
-		   node.vm.box = "bento/ubuntu-18.04"
+		   node.vm.box = "generic/ubuntu2004"
 		   node.vm.hostname = "node#{i}"
 		   node.vm.network :private_network, ip: "10.10.10.1#{i}"
 		   node.vm.provider "virtualbox" do |vb|
