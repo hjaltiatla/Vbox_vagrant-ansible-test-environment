@@ -10,6 +10,6 @@
 1. vagrant up
 1. vagrant ssh controller
 1. cd /vagrant
-1. ./copy-keys
+1. ./copy-keys.sh
 
 
