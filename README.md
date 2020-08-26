@@ -19,21 +19,21 @@
 
 ## Vagrant commands:
 
-### Starting a VM/Environment
+#### Starting a VM/Environment
 - `vagrant up`   vagrant up -- starts vagrant environment (also provisions only on the FIRST vagrant up)
 - `vagrant status` -- outputs status of the vagrant machine
 
-### Getting into a VM
+#### Getting into a VM
 - `vagrant ssh`  -- connects to machine via SSH
 - `vagrant ssh <boxname>` -- If you give your box a name in your Vagrantfile, you can ssh into it with boxname. Works from any directory.
 
-### Stopping a VM
+#### Stopping a VM
 - `vagrant halt` -- stops the vagrant machine
 - `vagrant suspend`  -- suspends a virtual machine (remembers state)
 
-### Saving Progress
--`vagrant snapshot save [options] [vm-name] <name>` -- vm-name is often default. Allows us to save so that we can rollback at a later time
+#### Saving Progress
+- `vagrant snapshot save [options] [vm-name] <name>` -- vm-name is often default. Allows us to save so that we can rollback at a later time
 
 
-### [Vagrant cheat-sheet](https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4#file-vagrant-cheat-sheet-md)
+#### [Vagrant Commands cheat-sheet](https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4#file-vagrant-cheat-sheet-md)
 
