@@ -5,10 +5,10 @@
 1. Install Virtualbox
 1. Install Vagrant
 1. Clone this Github repo and change CWD to the downloaded repo directory
-1. vagrant up
-1. vagrant ssh controller
-1. cd /vagrant
-1. ./copy-keys.sh
+1. `vagrant up`
+1. `vagrant ssh controller`
+1. `cd /vagrant`
+1. `./copy-keys.sh`
 
 ## Environment overview:
 * **ip:** 10.10.10.10  **hostname:** controller **OS:** Ubuntu20.04 **Shared folder from host OS to the virtualbox VM:** /vagrant on virtualbox vm 
