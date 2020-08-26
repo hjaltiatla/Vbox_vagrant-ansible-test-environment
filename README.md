@@ -1,7 +1,3 @@
-## 5-Node Local Vagrant test environment for Ansible using Virtualbox
-
-*If using Windows 10 and want to use WSL i reccomend using WSL version 1 because having Hyper-v enabled causes issues alongside Virtualbox.*
-
 **Vagrant environment setup process:**
 
 1. Install Virtualbox
@@ -12,4 +8,9 @@
 1. cd /vagrant
 1. ./copy-keys.sh
 
-
+**Environment overview:**
+**ip:** 10.10.10.10  **hostname:** controller **OS:** Ubuntu20.04
+**ip:** 10.10.10.11  **hostname:** node1 **OS:** Ubuntu20.04
+**ip:** 10.10.10.12  **hostname:** node2 **OS:** Ubuntu20.04
+**ip:** 10.10.10.13  **hostname:** node3 **OS:** Ubuntu20.04
+**ip:** 10.10.10.14  **hostname:** redhat-node **OS:** CentOS8
