@@ -1,4 +1,4 @@
-# 5-Node Local Vagrant test environment for Ansible using Virtualbox 
+# 5-Node Local Vagrant test environment for Ansible
 
 ## Vagrant environment setup process:
 
