@@ -11,7 +11,7 @@
 1. ./copy-keys.sh
 
 ## Environment overview:
-* **ip:** 10.10.10.10  **hostname:** controller **OS:** Ubuntu20.04
+* **ip:** 10.10.10.10  **hostname:** controller **OS:** Ubuntu20.04 **Shared folder from host OS to the virtualbox VM:** /vagrant on virtualbox vm 
 * **ip:** 10.10.10.11  **hostname:** node1 **OS:** Ubuntu20.04
 * **ip:** 10.10.10.12  **hostname:** node2 **OS:** Ubuntu20.04
 * **ip:** 10.10.10.13  **hostname:** node3 **OS:** Ubuntu20.04
